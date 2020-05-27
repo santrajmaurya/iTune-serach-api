@@ -5,12 +5,10 @@ import {
   Input,
   Button
 } from "antd";
-import { SearchOutlined, FilterOutlined } from "@ant-design/icons";
+import { SearchOutlined } from "@ant-design/icons";
 import { useSelector, useDispatch } from "react-redux";
 
 import SongGrid from '../SongGrid/SongGrid';
-
-const { Search } = Input;
 
 const SearchComponent = () => {
 
